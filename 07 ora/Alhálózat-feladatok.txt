@@ -1,0 +1,18 @@
+1. Adott a 192.168.10.0 /24 hálózat, amin belül 9 alhálózatot kell létrehozni. Írjuk fel az első, második és az utolsó alhálózat adatait (hálózati és szórási cím, netmaszk)!
+
+2. A 192.168.1.0 hálózaton belül alhálózatokat hoztunk létre /29-es netmaszkkal. Mi a negyedik alhálózat hálózati címe?
+
+3. Rendelkezésünkre áll egy C osztályú hálózat címtartományának első fele. Hány alhálózatot tudunk benne még létrehozni, ha hálózatonként 10-10 gépet kell elhelyeznünk?
+
+4. Milyen típusú cím a 192.168.20.112, ha a netmaszk /26, illetve ha /28 ?
+
+5. Egy új hálózatban 9 alhálózatot kell létrehozni, hálózatonként 50 géppel. Válasszunk megfelelő címtartományt, és határozzuk meg az első öt alhálózat adatait!
+
+6. Adjuk meg a következő hálózatok összes adatát: 172.17.0.80/29, illetve 10.10.0.192/27 !
+
+7. Melyik hálózatra esik a 192.168.200.200/27 cím? Írjuk fel a szórási címét is!
+
+8. Alhálózatokat kell létrehoznunk a lehető legkevesebb cím elpazarlásával. A gépek száma alhálózatonként: 15, 20, 50 illetve 4. Írjuk fel a hálózatok adatait!
+ 
+9. Adott egy alhálókra osztott rendszer a következő címekkel: 192.168.0.0/26, 192.168.0.64/27, 192.168.0.96/30. Szükség lenne ugyanezen a főhálózaton belül még egy olyan alhálózatra, amin 12 új gép elhelyezhető. Mi lehet ennek a hálózati címe és netmaszkja?
+

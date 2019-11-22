@@ -1,0 +1,3 @@
+A számítások egyenlő hosszúságú alhálózati maszkokkal készülnek.
+Utána megbeszélni mik az előnyök és a hátrányok.
+Az 1.feladat_start-ot kell megoldatni a 1.feladat_end a megoldás.

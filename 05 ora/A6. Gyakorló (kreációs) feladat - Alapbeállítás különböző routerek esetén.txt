@@ -1,0 +1,23 @@
+Az alábbi feladatot Packet Tracer szimulációs programban kell elvégeznie.
+Ön egy internet szolgáltatónál dolgozik, amit ebben a feladatban NewNet-nek fogunk hívni.
+Cége belekezd egy újfajta hálózati tevékenységbe, amihez ki szeretne próbálni többféle cisco routert a valós környezetbe illesztve.
+Ön azt a feladatot kapta, hogy készítse elő ezeket a készülékeket azonos beállításokkal, hogy a próba alatt azokat könnyen tudják cserélni, majd a célnak megfelelő további beállításokkal ellátni.
+Ehhez az alábbi feladatokat kell végrehajtania minden routeren, hogy azok alapbeállítása készen legyen:
+1) Ha szükséges, bővítse a készülékeket olyan bővítőkártyával, ami lehetővé teszi 2 db DCE-DTE szinkron soros kapcsolat kiépítését!
+2) A készülék neve a típusszámból (csak számjegyek) és a cég nevéből, valamint a futuretest szóból kell álljon (pl. NewNet1941futuretest).
+3) A konzolos kapcsolatot jelszóval kell védeni, hogy a teszt során ne kelljen személyes felügyeletet biztosítani a készülékhez, és illetéktelenek ne férhessenek hozzá a beállító felülethez (cli-hez). A jelszó a konzolos kapcsolaton legyen "N3Widea"!
+4) A készülékek állapotellenőrzését a vállalat különböző területein tevékenykedő szakértők fogják végezni, ugyanakkor a beállítások megváltoztatását nem szabad elvégezzék; ehelyett a változtatási igényüket jelezniük kell, és a beállítást az Ön közvetlen munkatársa végzi majd. Ő azt kérte, hogy a privilegizált mód jelszava legyen "B1GD34L", amit a konfigurációban el nem olvasható módon (titkosítva) kell rögzíteni. Állítsa be számára így a hozzáférést!
+5) A routerek távelérését is biztosítani kell egy széles csoport számára, hogy mindenki megvizsgálhassa a saját szakterületének megfelelően az adott típus működési paramétereit. Ehhez a telnet protokollra esett a választás. Állítsa be a routert úgy, hogy egyidejűleg 6 telnetes kapcsolódást kiszolgáljon. A telnetes bejelentkezés jelszava legyen "3ngin3ch3ck"!
+6) Mivel a készülékek éles környezetben való tesztelése fog megtörténni, azokat el kell látni jogi védelemként napi üzenettel is, ami a vezérlőfelületre való kapcsolódáskor megjelenik. Ennek a napi üzenetnek a szövege legyen a következő: "A belepes csak a NewNet dolgozoi szamara vagy a NewNet megbizasabol megengedett!"
+7) A konfigurációban többféle jelszót rögzíteni fognak az új funkciók beállításakor. Ezen jelszavak védelme érdekében kapcsolja be a konfiguráció jelszavainak titkosítását végző szolgáltatást!
+8) A hálózati környezetben az épp tesztelés alatt álló forgalomirányítót egy akármilyen sebességű, ethernet technológiának megfelelő kapcsolattal, és egy szinkron soros kapcsolattal fogják a hálózatba csatlakoztatni. Ehhez szükséges egy-egy ilyen interfész beállítása. Ezt az alábbiak szerint végezze el:
+8a) az egyik ethernet technológiás interfészen 
+8a1) állítsa be a 143.81.196.44 IP-címet a 255.255.255.240 alhálózati maszkkal! 
+8a2) Kapcsolja is fel az interfészt, hogy a router becsatlakoztatása után az azonnal üzemkész legyen!
+8a3) Megjegyzésként adja meg a következő szöveget: "szórásos hálózati interfész"
+8b) az egyik serial interfészen
+8b1) konfigurálja be a 143.81.41.23/26 IP-címet!
+8b2) Az interfész a kapcsolat számára biztosítson órajelet is, aminek az értéke legyen 256000 ütem/másodperc!
+8b3) Kapcsolja is fel az interfészt, hogy a router becsatlakoztatása után az azonnal üzemkész legyen!
+8b4) Megjegyzésként adja meg a következő szöveget: "pont-pont kapcsolat"
+9) Mentse el a beállításokat, hogy a készülék kikapcsolása, kiszállítása és a helyszínen történő beüzemelése után is ezekkel a paraméterekkel üzemeljen!

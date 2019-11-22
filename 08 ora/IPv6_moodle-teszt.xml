@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 208  -->
+  <question type="gapselect">
+    <name>
+      <text>EUI64-es kérdés</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Az EUI-64 módszer a [[1]] bites fizikai címet kiegészíti a [[2]] értékkel, majd invertálja a bal szélső [[3]]. bitet.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Válasza helyes.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Válasza részben helyes.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Válasza helytelen.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <selectoption>
+      <text>48</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>FFFE</text>
+      <group>2</group>
+    </selectoption>
+    <selectoption>
+      <text>7</text>
+      <group>3</group>
+    </selectoption>
+    <selectoption>
+      <text>24</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>FEFF</text>
+      <group>2</group>
+    </selectoption>
+    <selectoption>
+      <text>FEFE</text>
+      <group>2</group>
+    </selectoption>
+    <selectoption>
+      <text>56</text>
+      <group>1</group>
+    </selectoption>
+    <selectoption>
+      <text>2</text>
+      <group>3</group>
+    </selectoption>
+    <selectoption>
+      <text>8</text>
+      <group>3</group>
+    </selectoption>
+  </question>
+
+<!-- question: 209  -->
+  <question type="matching">
+    <name>
+      <text>Párosítsd a Neighbour Discovery protokoll üzeneteit az általuk megvalósítható funkciókkal:</text>
+    </name>
+    <questiontext format="html">
+      <text>Párosítsd a Neighbour Discovery protokoll üzeneteit az általuk megvalósítható funkciókkal:</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="moodle_auto_format">
+      <text>kedvezőbb next-hop bejelentése</text>
+      <answer>
+        <text>redirect</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>szomszéd fizikai címének lekérdezése</text>
+      <answer>
+        <text>neighbor solicitation</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>fizikai cím közlése</text>
+      <answer>
+        <text>neighbor advertisement</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>útválasztó adatainak lekérdezése</text>
+      <answer>
+        <text>router solicitation</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>hálózati beállítások közlése a szomszéd állomással</text>
+      <answer>
+        <text>router advertisement</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 210  -->
+  <question type="matching">
+    <name>
+      <text>Párosítsd össze a címeket a címtípusokkal!</text>
+    </name>
+    <questiontext format="html">
+      <text>Párosítsd össze a címeket a címtípusokkal!</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="moodle_auto_format">
+      <text>fe80::12:34</text>
+      <answer>
+        <text>link-local</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>ff02::2</text>
+      <answer>
+        <text>multicast</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>2001:db8::1</text>
+      <answer>
+        <text>unicast</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>::1</text>
+      <answer>
+        <text>loopback</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 211  -->
+  <question type="matching">
+    <name>
+      <text>Rakd sorba az interfész autokonfigurációs lépéseit!</text>
+    </name>
+    <questiontext format="html">
+      <text>Rakd sorba az interfész autokonfigurációs lépéseit!</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <subquestion format="moodle_auto_format">
+      <text>link-local cím generálása</text>
+      <answer>
+        <text>1.</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>cím egyediségének megállapítása (DAD)</text>
+      <answer>
+        <text>2.</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>router solicitation küldése</text>
+      <answer>
+        <text>3.</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>router advertisement küldése</text>
+      <answer>
+        <text>4.</text>
+      </answer>
+    </subquestion>
+    <subquestion format="moodle_auto_format">
+      <text>a hálózati rész és prefix ismeretében interfész ID generálása</text>
+      <answer>
+        <text>5.</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 212  -->
+  <question type="multichoice">
+    <name>
+      <text>Adott egy Cisco router interfészének fizikai címe: 0001.4312.fe45. Mi lesz az interfész-ID az EUI-64 módszert használva?</text>
+    </name>
+    <questiontext format="html">
+      <text>Adott egy Cisco router interfészének fizikai címe: 0001.4312.fe45. Mi lesz az interfész-ID az EUI-64 módszert használva?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>0201:43ff:fe12:fe45</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>0021:43ff:fe12:fe45</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>0201:4312:ffff:fe45</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>0021:43ff:fe12:fe45</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 213  -->
+  <question type="multichoice">
+    <name>
+      <text>DHCP-2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Melyik módszer esetén tartja nyilván a DHCPv6 szerver a kliensek számát?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Válasza helyes.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Válasza részben helyes.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Válasza helytelen.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>SLAAC<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>autokonfig<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Stateful DHCPv6<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Stateless DHCPv6<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 214  -->
+  <question type="multichoice">
+    <name>
+      <text>Hogyan írható le szabályosan rövidítve a következő IPv6 cím:  2001:0000:0000:0023:a200:0000:0000:0001</text>
+    </name>
+    <questiontext format="html">
+      <text>Hogyan írható le szabályosan rövidítve a következő IPv6 cím: 2001:0000:0000:0023:a200:0000:0000:0001</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2001:0:0:23:a200::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001::23:a200::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0:0:23:a2:0:0:1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0:23:a200:0:1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 215  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik a felsoroltak közül a Dual Stack módszer előnye?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik a felsoroltak közül a Dual Stack módszer előnye?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>az IPv6 összes funkciója elérhető</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>két, egymástól távoli IPv6-os hálózatot tud összekötni</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>képes vele kommunikálni egy tisztán IPv4-es és egy IPv6-os állomás is</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>jól skálázható, bővíthető</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 216  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik a felsoroltak közül a tunneling módszer előnye?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik a felsoroltak közül a tunneling módszer előnye?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>az IPv6 összes funkciója elérhető</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>két, egymástól távoli IPv6-os hálózatot tud összekötni</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>képes vele kommunikálni egy tisztán IPv4-es és egy IPv6-os állomás is</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>jól skálázható, bővíthető</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 217  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik állítás hamis?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik állítás hamis?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>az IPv4 csomagfejléce egyszerűbb felépítésű, mint az IPv6-é</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>az IPv6 beépítve támogatja a csomagszintű titkosítást és hitelesítést</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>az IPv6-os címből megállapítható, melyik ISP osztotta ki</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>az IPv6-ban nincs szükség alhálózatokra a hatalmas címtér miatt</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>az anycast címeket több interfészhez is hozzárendelhetjük</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 218  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik címtípusra igaz, hogy több interfészhez is hozzárendeljük, de közülük csak egy dolgozza fel?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik címtípusra igaz, hogy több interfészhez is hozzárendeljük, de közülük csak egy dolgozza fel?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>anycast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>multicast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>broadcast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>unicast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 219  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik címzési mód nem létezik az IPv6-ban?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik címzési mód nem létezik az IPv6-ban?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>broadcast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>multicast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>anycast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>unicast</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 220  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik irányító protokoll követeli meg egy router-azonosító megadását is?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik irányító protokoll követeli meg egy router-azonosító megadását is?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>OSPFv3</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>EIGRP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>RIPng</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>BGP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 221  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik megoldás képes felderíteni a maximálisan átvihető adategység méretét az adatküldés előtt?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik megoldás képes felderíteni a maximálisan átvihető adategység méretét az adatküldés előtt?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>PMTUD</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ND</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>IPSec</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>EUI-64</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 222  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik módszer alkalmazható, ha egy tisztán IPv4-es állomás kommunikálni akar egy tisztán IPv6-ossal?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik módszer alkalmazható, ha egy tisztán IPv4-es állomás kommunikálni akar egy tisztán IPv6-ossal?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>NAT-PT</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Teredo</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Tunnel broker</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Dual Stack</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ISATAP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 223  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik multicast cím az alábbiak közül?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Melyik multicast cím az alábbiak közül?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>ff02::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>fe80::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001::2</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>fefe:20::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 224  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik nem érvényes IPv6 cím?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik nem érvényes IPv6 cím?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>a100:b324:2345:16547:ab::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>fe80::2</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>ff34:45:246:1000::ab:2:1:1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="moodle_auto_format">
+      <text>a325:5674:b134:1:0:237:ba34:1111</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 225  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik nem érvényes IPv6 cím?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik nem érvényes IPv6 cím?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>2310:100h::a326:452</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>2001:db8::a231:2::1</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>::23</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>0:0:0:1:2:3:a:c</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>a341:7623:3429:ab45:efea:286:0001:a63b</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 226  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik NEM IPv6-os átállási módszer IPv4-ről?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik NEM IPv6-os átállási módszer IPv4-ről?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>IPSec</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Teredo</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ISATAP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Dual Stack</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>6over4</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 227  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik paranccsal lehet a fizikai címből generált interfész ID-t beállítani egy Cisco routeren?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik paranccsal lehet a fizikai címből generált interfész ID-t beállítani egy Cisco routeren?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>ipv6 address 2001::/64 eui-64</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ipv6 address 2001::/64 autoconfig</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ipv6 address 2001::1/64 eui-64</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ipv6 address fe80::1 link-local</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ipv6 address 2001::/48 eui-64</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 228  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik protokoll funkcióját lehet megvalósítani a Neighbour Solicitation/Advertisement üzenetekkel?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik protokoll funkcióját lehet megvalósítani a Neighbour Solicitation/Advertisement üzenetekkel?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>ARP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>ICMP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>RARP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>IGMP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>PMTUD</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 229  -->
+  <question type="multichoice">
+    <name>
+      <text>Melyik routing protokoll képes IPv6 forgalom irányítására?</text>
+    </name>
+    <questiontext format="html">
+      <text>Melyik routing protokoll képes IPv6 forgalom irányítására?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>OSPFv3</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>OSPFv2</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>RIPv2</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>IGRP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>EGP</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 230  -->
+  <question type="multichoice">
+    <name>
+      <text>Mi a teljes alakja a következő, rövidített IPv6 címnek: 2001::1:0:a23</text>
+    </name>
+    <questiontext format="html">
+      <text>Mi a teljes alakja a következő, rövidített IPv6 címnek:2001::1:0:a23</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>2001:0000:0000:0000:0000:0001:0000:0a23</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0000:0000:0000:0000:1000:0000:0a23</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0001:0000:0000:0000:0000:0000:0a23</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0000:0000:0000:0000:1000:0000:a230</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>2001:0000:0000:0000:0000:0000:0010:0a23</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 231  -->
+  <question type="multichoice">
+    <name>
+      <text>Milyen paramétereket NEM kell megadni egy tunnel interfészen?</text>
+    </name>
+    <questiontext format="html">
+      <text>Milyen paramétereket NEM kell megadni egy tunnel interfészen?</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="moodle_auto_format">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>a túloldali eszközön lévő interfész neve</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>a túloldali eszközön lévő interfész IP címe</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>a tunnelben használt átviteli mód</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="moodle_auto_format">
+      <text>a forrás interfész neve</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>a forrás interfész IP címe</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 232  -->
+  <question type="multichoice">
+    <name>
+      <text>Multicast címek</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Melyik multicast csoportcím nem állítódik be automatikusan egy Cisco router interfészén, ha csak bekapcsoljuk és engedélyezzük rajta az IPv6-ot?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Válasza helyes.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Válasza részben helyes.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Válasza helytelen.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ff02::1<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>ff02::2<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>ff02::1:2<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>solicited node<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 233  -->
+  <question type="shortanswer">
+    <name>
+      <text>DHCPv6 szerver interfészen</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Melyik paranccsal állítható be Cisco routeren, hogy egy adott interfészen osszon ki címeket DHCPv6-tal a LAN nevű címkészletből? (Ne használj rövidítést!)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>ipv6 dhcp server LAN</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 234  -->
+  <question type="shortanswer">
+    <name>
+      <text>ipv6 routing</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Írd be a hiányzó parancsot rövidítés nélkül:</p><p>Egy Cisco routeren az IPv6-os forgalomirányítást a(z) _____ parancs kapcsolja be.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>ipv6 unicast-routing</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 235  -->
+  <question type="shortanswer">
+    <name>
+      <text>link-local cím megnézése</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Melyik paranccsal lehet megnézni egy Cisco router G0/0 interfészének link-local címét? <br></p><p>(Ne használj rövidítést, az interfész nevét a fent látható módon írd be!)<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>show ipv6 interface G0/0</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 236  -->
+  <question type="truefalse">
+    <name>
+      <text>A kézi tunneling használatához dual stack routerre van szükség, ekkor az IPv4-es csomagot IPv6-osba ágyazva továbbítjuk.</text>
+    </name>
+    <questiontext format="html">
+      <text>A kézi tunneling használatához dual stack routerre van szükség, ekkor az IPv4-es csomagot IPv6-osba ágyazva továbbítjuk.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 237  -->
+  <question type="truefalse">
+    <name>
+      <text>A Neighbour Discovery protokoll segítségével képes egy állomás link-local címet generálni magának.</text>
+    </name>
+    <questiontext format="html">
+      <text>A Neighbour Discovery protokoll segítségével képes egy állomás link-local címet generálni magának.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 238  -->
+  <question type="truefalse">
+    <name>
+      <text>Az anycast cím ránézésre nem különböztethető meg a unicast címektől.</text>
+    </name>
+    <questiontext format="html">
+      <text>Az anycast cím ránézésre nem különböztethető meg a unicast címektől.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 239  -->
+  <question type="truefalse">
+    <name>
+      <text>Az embedded (beágyazott) címekben nem kell mindenhol a : elválasztó karaktert használni.</text>
+    </name>
+    <questiontext format="html">
+      <text>Az embedded (beágyazott) címekben nem kell mindenhol a : elválasztó karaktert használni.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 240  -->
+  <question type="truefalse">
+    <name>
+      <text>Az EUI-64 módszernél a 48 bites MAC-címet kiegészítjük a FFFE értékkel, így áll elő a végleges, 64 bites interfész-ID.</text>
+    </name>
+    <questiontext format="html">
+      <text>Az EUI-64 módszernél a 48 bites MAC-címet kiegészítjük a FFFE értékkel, így áll elő a végleges, 64 bites interfész-ID.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 241  -->
+  <question type="truefalse">
+    <name>
+      <text>Az IPSec olyan biztonsági protokoll, amit kimondottan az IPv6 dinamikus útválasztó protokollokhoz fejlesztettek ki.</text>
+    </name>
+    <questiontext format="html">
+      <text>Az IPSec olyan biztonsági protokoll, amit kimondottan az IPv6 dinamikus útválasztó protokollokhoz fejlesztettek ki.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 242  -->
+  <question type="truefalse">
+    <name>
+      <text>DHCP-1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Az IPv6-os DHCP megvalósítása ugyanaz, mint az IPv4-es, csak sokkal nagyobb a címtér.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 243  -->
+  <question type="truefalse">
+    <name>
+      <text>dhcpv6 jelzőbitek</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A router advertisement üzenetben lévő jelzőbitekből tudja meg a kliens, hogy van-e DHCP szerver a hálózaton.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 244  -->
+  <question type="truefalse">
+    <name>
+      <text>DNS ipv6-nál</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Az IPv6-os gépnevek DNS-be való bevitele AAAA rekordokkal történik, míg a címeket továbbra is speciális PTR rekordokkal visszük be.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 245  -->
+  <question type="truefalse">
+    <name>
+      <text>Egy interfész link-local címe mindig FE80-as értékkel kezdődik, amit az interfész automatikusan generál, megváltoztatni nem tudjuk.</text>
+    </name>
+    <questiontext format="html">
+      <text>Egy interfész link-local címe mindig FE80-as értékkel kezdődik, amit az interfész automatikusan generál, megváltoztatni nem tudjuk.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 246  -->
+  <question type="truefalse">
+    <name>
+      <text>Minden operációs rendszer az EUI-64-es módszert használja a 64 bites interfész-ID előállításához, pl. link-local címeknél.</text>
+    </name>
+    <questiontext format="html">
+      <text>Minden operációs rendszer az EUI-64-es módszert használja a 64 bites interfész-ID előállításához, pl. link-local címeknél.</text>
+    </questiontext>
+    <generalfeedback format="moodle_auto_format">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="moodle_auto_format">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

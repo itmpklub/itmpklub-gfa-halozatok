@@ -1,0 +1,16 @@
+1. Teszteljük, hogy minden host mindenhonnan elérhetõ!
+
+2. Akadályozzuk meg, hogy PC0 elérje a Server0-t!
+	(de mindenki más igen!)
+	normál ACL,elõször csak deny, majd próba, és 		permit any
+2-a. Oldjuk meg, hogy csak PC1-re vonatkozzon az 	elõbbi korlátozás, PC0-ra ne, és ennek a 		hálózatnak semilyen más állomására se.
+	Normál ACL szerkesztése.
+
+3. Töröljük az eddigi ACL-t.
+
+4. Akadályozzuk meg, hogy PC1 weboldalt tudjon letölteni Sever0-ról, de tudja megpingelni, és ez a korlátozás csak PC1-re vonatkozzon.
+	(kiterjesztett ACL)
+5. Oldjuk meg, hogy Server0-t csak HTTP kérésekkel és ping teszttel érjük el bármelyik mostani és késõbb, akár új hálózatból beállításra kerülõ állomásról.
+6. Oldjuk meg, hogy Server0 DNS kiszolgálóként is mûködjön és elérhetõ legyen.
+	(kiterjesztett ACL szerkesztése)
+

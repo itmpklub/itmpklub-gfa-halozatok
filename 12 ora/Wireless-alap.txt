@@ -1,0 +1,19 @@
+1. Nézzük meg a Server0 IP beállítását, szolgáltatásait (DHCP, DNS)!
+
+2. Kössük össze a Server0-t és a WR0 internet portját!
+3. Ellenõrizzük le Server0 grafikus felületén, hogy kapott IP beállítási adatokat.(nem életszerû a közvetlen GUI!)
+3. Kössük össze WR0 egyik Ethernet portját PC0-val!
+4. Állítsuk PC0-t DHCP használatára!
+5. Tegyünk Wireless kártyát a laptopba, és várjunk a kapcsolat létrejöttére. (default értékek!)
+5. PC0 Desktopján indítsunk böngészõt, és írjuk be a WR0 címét (default gateway címe)! (admin, admin)
+6. Váltsunk a Wireless-re, és ellenõrizzük a default beállításokat! A továbbiakban innen konfigurálunk.
+7. Állítsuk be a Teszt007 SSID-t! 
+8. A kliensen keressük meg és csatlakozzunk hozzá!
+9. A WR0-n állítsunk be TesztHidden SSID-t, és kapcsoljuk ki az SSID broadcast-et!
+10. A kliensen keressük, majd állítsuk be az új kapcsolatot!
+11. A WR0-n állítsunk be MAC-cím szûrést, majd tegyünk be új laptopot wireless kártyával és próbáljunk csatlakozni!
+
+12. Állítsunk be WR0-n elõször WEP kulcsot (abcde12345) és módot a Wireless Security lapon!
+13. Állítsuk be Laptop 0-t, hogy most is tudjon csatlakozni!
+14. Állítsuk át a Security módot WPA2 Personal-ra és adjunk új kulcsot (WPA2aes007)!
+15. Oldjuk meg, hogy Laptop1 is tudjon csatlakozni, de ne kelljen nekünk a kulcson kívül mást megadni!
