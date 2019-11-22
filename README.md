@@ -1,1 +1,1 @@
-# itmpklub-gfa-halozatok
+# itmpklub-gfa-halozatok :)
